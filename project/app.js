@@ -5,11 +5,13 @@ app.set("view engine", "ejs")
 
 app.get("/", function (req, res) {
     console.log(req.url);
-    res.send("这是主页")
+    //res.send("这是主页")
+    res.render("index")
 });
 app.get("/contact", function (req, res) {
     console.log(req.url);
-    res.send("联系人通讯录页面")
+   // res.send("联系人通讯录页面")
+    res.render("contact.ejs")
 });
 
 // 路由参数
