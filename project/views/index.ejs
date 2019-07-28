@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
 <div>
+    <% include ../public/nav.ejs %> <!-- 引入公共模板-->
+
    主页面 index
-    <nav>
+    <!--<nav>
         <ul>
             <li>
-                <a href="/"></a>
+                <a href="/">home/index</a>
             </li>
             <li>
-                <a href="/contact"></a>
+                <a href="/contact">contact</a>
             </li>
         </ul>
-    </nav>
+    </nav>-->
 </div>
 <div>
     首页 <%= name %>
