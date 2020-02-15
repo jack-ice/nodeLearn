@@ -9,7 +9,7 @@
   "author": "陈俊飞",
   "license": "ISC",
   "dependencies": {
-    "yarn": "^1.17.3"
+    "yarn": "^1.22.0"
   },
   "devDependencies": {
     "body-parser": "^1.19.0",
